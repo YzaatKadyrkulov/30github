@@ -22,6 +22,7 @@ public class Doctor extends BaseEntity{
     private String something;
     private String love;
     private String lj;
+    private String sdf;
 
     @OneToMany(mappedBy = "doctor")
     private List<Appointment> appointments;
