@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 @SequenceGenerator(name = "base_id_gen", sequenceName = "doctor_seq", allocationSize = 1)
-public class Doctor extends BaseEntity{
+public class Doctor extends BaseEntity {
     private String firstName;
     private String lastName;
     private String specialization;
@@ -25,7 +25,7 @@ public class Doctor extends BaseEntity{
     private String sdf;
     private String did;
     private String some;
-
+    private String like;
     @OneToMany(mappedBy = "doctor")
     private List<Appointment> appointments;
 
