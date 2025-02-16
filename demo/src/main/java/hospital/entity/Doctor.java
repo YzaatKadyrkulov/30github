@@ -27,6 +27,7 @@ public class Doctor extends BaseEntity {
     private String some;
     private String like;
     private String somete;
+    private String remote;
     @OneToMany(mappedBy = "doctor")
     private List<Appointment> appointments;
 
