@@ -31,6 +31,7 @@ public class Doctor extends BaseEntity {
     private int doctor;
     private double numeric;
     private byte somet;
+    private short delete;
     @OneToMany(mappedBy = "doctor")
     private List<Appointment> appointments;
 
