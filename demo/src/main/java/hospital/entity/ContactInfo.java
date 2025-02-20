@@ -16,6 +16,7 @@ public class ContactInfo extends BaseEntity {
     private String email;
     private String address;
     private String emergencyContact;
+    private String something;
 
     @OneToOne(mappedBy = "contactInfo")
     private Patient patient;
