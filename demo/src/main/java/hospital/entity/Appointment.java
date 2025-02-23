@@ -20,6 +20,7 @@ import java.time.LocalDateTime;
 public class Appointment extends BaseEntity{
     private LocalDateTime appointmentDate;
     private Status status;
+    private String delete;
 
     @ManyToOne
     private Patient patient;
