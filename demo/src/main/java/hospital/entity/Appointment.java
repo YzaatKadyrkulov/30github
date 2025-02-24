@@ -21,6 +21,7 @@ public class Appointment extends BaseEntity{
     private LocalDateTime appointmentDate;
     private Status status;
     private String delete;
+    private byte something;
 
     @ManyToOne
     private Patient patient;
