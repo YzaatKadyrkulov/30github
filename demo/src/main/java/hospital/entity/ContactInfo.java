@@ -19,6 +19,7 @@ public class ContactInfo extends BaseEntity {
     private String something;
     private String remove;
     privaite byte delete;
+    private short remote;
 
     @OneToOne(mappedBy = "contactInfo")
     private Patient patient;
