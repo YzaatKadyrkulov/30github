@@ -19,8 +19,8 @@ import java.util.List;
 public class Department extends BaseEntity{
     private String name; // Терапевтическое, хирургическое и т. д.
     private String description;
+    private String remote;
 
     @OneToMany(mappedBy = "department")
     private List<Doctor> doctors;
 }
-
