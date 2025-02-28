@@ -20,6 +20,7 @@ public class Department extends BaseEntity{
     private String name; // Терапевтическое, хирургическое и т. д.
     private String description;
     private String remote;
+    private double remove;
 
     @OneToMany(mappedBy = "department")
     private List<Doctor> doctors;
