@@ -23,6 +23,7 @@ public class Appointment extends BaseEntity{
     private String delete;
     private byte something;
     private int remote;
+    private int remove;
 
     @ManyToOne
     private Patient patient;
