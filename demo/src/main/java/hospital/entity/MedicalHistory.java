@@ -23,7 +23,7 @@ public class MedicalHistory extends BaseEntity {
     private LocalDate recoveryDate;
     private String doctorNotes;
     private String something;
-
+    private String love;
     @ManyToOne
     private Patient patient;
 }
